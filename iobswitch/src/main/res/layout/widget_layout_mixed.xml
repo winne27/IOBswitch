@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainshape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/widget_shape"
+        android:orientation="vertical">
+
+        <include layout="@layout/message" />
+
+        <include layout="@layout/new_version" />
+
+
+        <LinearLayout
+
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/listview_right_margin"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/mixed_listview_0_0"
+                    layout="@layout/widget_listview_default" />
+
+                <include
+                    android:id="@+id/mixed_listview_0_1"
+                    layout="@layout/widget_listview_default" />
+
+                <include
+                    android:id="@+id/mixed_listview_0_2"
+                    layout="@layout/widget_listview_default" />
+
+               <include
+                    android:id="@+id/mixed_listview_0_3"
+                    layout="@layout/widget_listview_default" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/mixed_listview_1_0"
+                    layout="@layout/widget_listview_default" />
+
+                <include
+                    android:id="@+id/mixed_listview_1_1"
+                    layout="@layout/widget_listview_default" />
+
+                <include
+                    android:id="@+id/mixed_listview_1_2"
+                    layout="@layout/widget_listview_default" />
+
+                <include
+                    android:id="@+id/mixed_listview_1_3"
+                    layout="@layout/widget_listview_default" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

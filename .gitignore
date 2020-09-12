@@ -1,0 +1,7 @@
+.project
+.gradle/2*
+.idea
+build
+iobswitch/build
+/iobswitch/build*
+captures

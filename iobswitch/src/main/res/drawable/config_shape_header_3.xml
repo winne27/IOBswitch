@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetRight="1dp"
+    android:insetLeft="1dp">
+
+    <shape android:shape="rectangle">
+        <stroke android:width="0dp" />
+        <solid android:color="@color/conf_bg_header_3" />
+    </shape>
+</inset>

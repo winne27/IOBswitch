@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/value_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/value_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="2dp"
+        android:textAllCaps="false"
+        android:textColor="@color/widget_default_color"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/value_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="2dp"
+        android:textAllCaps="false"
+        android:textColor="@color/widget_default_color"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/value_icon"
+        style="@style/lightimg"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/switchicon" />
+
+    <ImageView
+        android:id="@+id/prozent_icon"
+        style="@style/lightimg"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/myshape_proz_up"
+        android:contentDescription="@string/switchicon"
+        android:padding="1dp" />
+</RelativeLayout>
